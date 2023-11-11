@@ -1,0 +1,178 @@
+
+
+  hr {
+      box-sizing: content-box;
+      height: 0;
+      overflow: visible;
+  }
+  
+
+
+
+  table {
+      border-collapse: collapse;
+  }
+  
+ 
+  th {
+      text-align: inherit;
+  }
+
+  
+
+  
+
+
+  
+
+  
+
+  hr {
+      margin-top: 1.6rem;
+      margin-bottom: 1.6rem;
+      border: 0;
+      border-top: 1px solid rgba(0,0,0,0.1);
+  }
+  
+
+
+
+  .table {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 1.6rem;
+      background-color: transparent;
+  }
+  
+  .table th,.table td {
+      padding: 0.75rem;
+      vertical-align: top;
+  }
+  
+  .table thead th {
+      vertical-align: bottom;
+      border-bottom: 2px solid #6a381f;
+      font-family: cursive;
+  }
+  
+  
+  .table tbody{
+    & th, td{
+        vertical-align: bottom;
+        border-bottom: 2px solid #dcab6b;
+        font-family: cursive;
+    }
+ 
+}
+
+
+
+.empty_state{
+    min-width: 220px;
+    width: 100%;
+    max-width: 1000px;
+    height: 350px;
+    margin: 50px auto;
+    border-radius: 5px;
+    .img-no-result{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+  }
+  .table-sm th,.table-sm td {
+      padding: 0.3rem;
+  }
+  
+
+
+  
+
+  
+
+ 
+  
+  .table .thead-dark th {
+      color: #fff;
+      background-color: #212529;
+      border-color: #32383e;
+  }
+  
+  .table .thead-light th {
+      color: #495057;
+      background-color: #e9ecef;
+      border-color: #dee2e6;
+  }
+  
+  .table-dark {
+      color: #fff;
+      background-color: #212529;
+  }
+
+  @media (max-width: 767.98px) {
+      .table-responsive-sm {
+          display:block;
+          width: 100%;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar;
+      }
+  
+      .table-responsive-sm > .table-bordered {
+          border: 0;
+      }
+  }
+  
+  @media (max-width: 1023.98px) {
+      .table-responsive-md {
+          display:block;
+          width: 100%;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar;
+      }
+  
+      .table-responsive-md > .table-bordered {
+          border: 0;
+      }
+  }
+  
+  @media (max-width: 1199.98px) {
+      .table-responsive-lg {
+          display:block;
+          width: 100%;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar;
+      }
+  
+      .table-responsive-lg > .table-bordered {
+          border: 0;
+      }
+  }
+  
+  @media (max-width: 1379.98px) {
+      .table-responsive-xl {
+          display:block;
+          width: 100%;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar;
+      }
+  
+      .table-responsive-xl > .table-bordered {
+          border: 0;
+      }
+  }
+  
+  .table-responsive,.block-admininscriptionscolaireparregions.block-admininscriptionscolaireparregions .board,.block-admininscriptionscolaireparregions#block-adminrencontresparregions .board,[class*=block-miv-admin]:not(#block-adminregion).block-admininscriptionscolaireparregions .board,[class*=block-miv-admin]:not(#block-adminregion).block-adminrencontresparregions .board,[class*=block-miv-admin]:not(#block-adminregion)#block-adminrencontresparregions .board {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  
+  .table-responsive > .table-bordered,.block-admininscriptionscolaireparregions.block-admininscriptionscolaireparregions .board > .table-bordered,.block-admininscriptionscolaireparregions#block-adminrencontresparregions .board > .table-bordered,[class*=block-miv-admin]:not(#block-adminregion).block-admininscriptionscolaireparregions .board > .table-bordered,[class*=block-miv-admin]:not(#block-adminregion).block-adminrencontresparregions .board > .table-bordered,[class*=block-miv-admin]:not(#block-adminregion)#block-adminrencontresparregions .board > .table-bordered {
+      border: 0;
+  }
